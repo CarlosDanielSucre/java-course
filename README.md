@@ -28,6 +28,7 @@ In Java, this means that each instruction is executed **in the exact order** it 
 - Code is executed **line by line**, from top to bottom
 
 ### 💻 Java Example:
+In the example below, each comand is executed one after the other, in the order they are written:
 ```java
 public class Main {
     public static void main(String[] args) {
