@@ -9,26 +9,26 @@ The course is structured into comprehensive modules that guide you from the **ba
 
 - [x] [Sequential Structure](#-sequential-structure)
 - [x] [Estrutura Condicional](#-estrutura-condicional)
-- [ ] [Estruturas Repetitivas](#-estruturas-repetitivas)
-- [ ] [Outros Tópicos Básicos](#-outros-tópicos-básicos-sobre-java)
-- [ ] [Introdução à Programação Orientada a Objetos](#-introdução-à-programação-orientada-a-objetos)
-- [ ] [Construtores, `this`, Sobrecarga e Encapsulamento](#-construtores-palavra-this-sobrecarga-e-encapsulamento)
-- [ ] [Trabalhar com Data e Hora](#-trabalhar-com-data-e-hora)
-- [ ] [Enumerações e Composições](#-enumerações-e-composições)
+- [x] [Estruturas Repetitivas](#-estruturas-repetitivas)
+- [x] [Outros Tópicos Básicos](#-outros-tópicos-básicos-sobre-java)
+- [x] [Introdução à Programação Orientada a Objetos](#-introdução-à-programação-orientada-a-objetos)
+- [x] [Construtores, `this`, Sobrecarga e Encapsulamento](#-construtores-palavra-this-sobrecarga-e-encapsulamento)
+- [x] [Trabalhar com Data e Hora](#-trabalhar-com-data-e-hora)
+- [x] [Enumerações e Composições](#-enumerações-e-composições)
 ---
 
-## ✅ Sequential Structure
+## Sequential Structure
 
 A **Sequential Structure** is the most fundamental type of control flow in programming.  
 In Java, this means that each instruction is executed **in the exact order** it appears — one after another — **without any conditionals or loops**.
 This is the most basic control structure and is fundamental to understanding program flow.
 
-### ✅ Key Concepts:
+### Key Concepts:
 - No decision-making (`if`, `switch`)
 - No repetition structures (`for`, `while`, `do-while`)
 - Code is executed **line by line**, from top to bottom
 
-### 💻 Java Example:
+### ☕ Java Example:
 In the example below, each comand is executed one after the other, in the order they are written:
 ```java
 public class Main {
@@ -43,21 +43,21 @@ public class Main {
 ```
 ---
 
-## ✅ Estrutura Condicional
+## Estrutura Condicional
 
 Conditional structures allow the program to **make decisions** using statements like `if`, `else`, and `switch`.  
 These are essential when different behaviors are needed based on input or state.
 
 ---
 
-## ✅ Estruturas Repetitivas
+## Estruturas Repetitivas
 
 Java provides several **looping mechanisms** such as `for`, `while`, and `do-while`, which are used to execute a block of code **multiple times**.  
 They are powerful for automation, iteration, and data processing.
 
 ---
 
-## ✅ Outros Tópicos Básicos sobre Java
+## Outros Tópicos Básicos sobre Java
 
 Here we cover foundational Java elements like:
 - Variable declarations
@@ -68,14 +68,14 @@ Here we cover foundational Java elements like:
 
 ---
 
-## ✅ Introdução à Programação Orientada a Objetos
+## Introdução à Programação Orientada a Objetos
 
 Object-Oriented Programming (OOP) introduces concepts like **classes**, **objects**, and **methods**.  
 Java is an OOP language, and understanding these principles is key to building modular and reusable code.
 
 ---
 
-## ✅ Construtores, palavra `this`, Sobrecarga e Encapsulamento
+## Construtores, palavra `this`, Sobrecarga e Encapsulamento
 
 This module explores:
 - **Constructors**: special methods to initialize objects
@@ -85,7 +85,7 @@ This module explores:
 
 ---
 
-## ✅ Trabalhar com Data e Hora
+## Trabalhar com Data e Hora
 
 Java provides the `java.time` package for working with **dates and times** efficiently.  
 Learn how to:
@@ -95,7 +95,7 @@ Learn how to:
 
 ---
 
-## ✅ Enumerações e Composições
+## Enumerações e Composições
 
 - **Enums**: define a fixed set of constants, useful for readable code and decision-making.
 - **Composition**: modeling complex types by combining simpler classes.  
@@ -105,10 +105,10 @@ It's an alternative to inheritance and a key part of clean object modeling.
 
 
 
-## 📌 About the Course
+## About the Course
 
-- 👨‍🏫 **Instructor:** Dr. Nelio Alves  
-- 🎯 **Focus:** Java fundamentals, object-oriented programming, algorithms, data structures, GUI development, and real-world applications  
+- **Instructor:** Dr. Nelio Alves  
+- **Focus:** Java fundamentals, object-oriented programming, algorithms, data structures, GUI development, and real-world applications  
 - 🌐 **Course Link (Udemy):** [Click here](https://www.udemy.com/course/java-curso-completo/)
 
 ---
