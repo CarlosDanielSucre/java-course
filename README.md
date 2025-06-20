@@ -21,6 +21,7 @@ The course is structured into comprehensive modules that guide you from the **ba
 
 A **Sequential Structure** is the most fundamental type of control flow in programming.  
 In Java, this means that each instruction is executed **in the exact order** it appears — one after another — **without any conditionals or loops**.
+This is the most basic control structure and is fundamental to understanding program flow.
 
 ### ✅ Key Concepts:
 - No decision-making (`if`, `switch`)
