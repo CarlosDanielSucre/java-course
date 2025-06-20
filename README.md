@@ -100,3 +100,21 @@ Learn how to:
 - **Enums**: define a fixed set of constants, useful for readable code and decision-making.
 - **Composition**: modeling complex types by combining simpler classes.  
 It's an alternative to inheritance and a key part of clean object modeling.
+
+
+
+
+
+## 📌 About the Course
+
+- 👨‍🏫 **Instructor:** Dr. Nelio Alves  
+- 🎯 **Focus:** Java fundamentals, object-oriented programming, algorithms, data structures, GUI development, and real-world applications  
+- 🌐 **Course Link (Udemy):** [Click here](https://www.udemy.com/course/java-curso-completo/)
+
+---
+
+## 🚀 Stay Tuned
+
+More modules, code samples, and personal projects will be added as the course progresses.  
+Feel free to explore, fork, or contribute!
+
