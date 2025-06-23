@@ -26,7 +26,7 @@ sequential_structure/
 
 ## 🧠 What You’ll Learn Here
 
-- ✅ How to **print** output to the console using:
+- ✅ [How to **print** output to the console using:](How-to-Print-Output-to-the-Console-in-Java)
     - `System.out.print()`
     - `System.out.println()`
     - `System.out.printf()`
