@@ -26,11 +26,11 @@ sequential_structure/
 
 ## 🧠 What You’ll Learn Here
 
-- ✅ [How to **print** output to the console using:](How-to-Print-Output-to-the-Console-in-Java)
+- ✅ [How to **print** output to the console using:](#How-to-Print-Output-to-the-Console-in-Java)
     - `System.out.print()`
     - `System.out.println()`
     - `System.out.printf()`
-- ✅ How to **declare variables** and use:
+- ✅ [How to **declare variables** and use:](#How-to-Declare-and-Use-Them)
     - Primitive types: `int`, `double`, `char`, `boolean`
     - `String` for text
 - ✅ How to **read input** using the `Scanner` class
