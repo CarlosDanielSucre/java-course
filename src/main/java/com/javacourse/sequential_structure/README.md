@@ -1,4 +1,4 @@
-# 📘 Module 01 – Sequential Structure
+# 📘 Sequential Structure
 
 This module covers the **sequential structure**, the most fundamental concept in programming.  
 It refers to code that is executed **line by line**, exactly in the order it is written — without decisions (`if`, `switch`) or repetition (`for`, `while`).
@@ -36,33 +36,26 @@ It refers to code that is executed **line by line**, exactly in the order it is 
 | `CastingExample.java`       | Convert integer division to floating-point   |
 | `ProductInfoOutput.java`    | Format output using multiple variable types  |
 
----
 
-## 📌 Sample Output
-
-```
-Products:
-Computer, which price is $ 2100.00
-Office desk, which price is $ 650.50
-
-Record: 30 years old, code 5290 and gender: F
-
-Measure with eight decimal places: 53.23456700
-Rounded (three decimal places): 53.235
-US decimal point: 53.235
-```
 ---
 
 ## 📂 Folder Structure
+
+The structure below contains files with examples that demonstrate the key concepts of the **Sequential Structure** in Java.
 ```
-module01_sequential_structure/
-├── HelloWorld.java
-├── UserGreeting.java
-├── ArithmeticDemo.java
-├── CircleArea.java
-├── CastingExample.java
-├── ProductInfoOutput.java
-└── README.md
+sequential_structure/
+│
+├── README.md
+├── basic_example/    
+│   ├── HelloWorld.java
+│   ├── UserGreeting.java
+│   ├── ArithmeticDemo.java
+│   ├── CircleArea.java
+│   ├── CastingExample.java
+│   └── ProductInfoOutput.java
+├── exemplo01/
+    └── Exercise01.java
+    
 ```
 ---
 
