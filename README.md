@@ -8,13 +8,13 @@ The course is structured into comprehensive modules that guide you from the **ba
 ## 🗺️ Course Roadmap
 
 - [x] [Sequential Structure](#sequential-structure)
-- [x] [Estrutura Condicional](#-estrutura-condicional)
-- [x] [Estruturas Repetitivas](#-estruturas-repetitivas)
-- [x] [Outros Tópicos Básicos](#-outros-tópicos-básicos-sobre-java)
-- [x] [Introdução à Programação Orientada a Objetos](#-introdução-à-programação-orientada-a-objetos)
-- [x] [Construtores, `this`, Sobrecarga e Encapsulamento](#-construtores-palavra-this-sobrecarga-e-encapsulamento)
-- [x] [Trabalhar com Data e Hora](#-trabalhar-com-data-e-hora)
-- [x] [Enumerações e Composições](#-enumerações-e-composições)
+- [x] [Estrutura Condicional](#estrutura-condicional)
+- [x] [Estruturas Repetitivas](#estruturas-repetitivas)
+- [x] [Outros Tópicos Básicos](#outros-tópicos-básicos-sobre-java)
+- [x] [Introdução à Programação Orientada a Objetos](#introdução-à-programação-orientada-a-objetos)
+- [x] [Construtores, `this`, Sobrecarga e Encapsulamento](#construtores-palavra-this-sobrecarga-e-encapsulamento)
+- [x] [Trabalhar com Data e Hora](#trabalhar-com-data-e-hora)
+- [x] [Enumerações e Composições](#enumerações-e-composições)
 ---
 
 ## Sequential Structure
