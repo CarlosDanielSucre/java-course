@@ -34,7 +34,7 @@ sequential_structure/
     - Primitive types: `int`, `double`, `char`, `boolean`
     - `String` for text
 - ✅ [How to **read input** using the `Scanner` class](#How-to-Read-Input-Using-the-Scanner-Class-in-Java)
-- ✅ **Arithmetic expressions**:
+- ✅ [**Arithmetic expressions**:](#Arithmetic-Expressions-in-Java)
     - Operators: `+`, `-`, `*`, `/`, `%`
     - Operator **precedence** and use of parentheses
 - ✅ **Type casting** for precise division
@@ -315,6 +315,97 @@ String name = scanner.nextLine(); // now safe to read line
 ```
 
 - **Always close** the scanner at the end using `scanner.close()` to free system resources.
+---
+---
+
+# Arithmetic Expressions in Java
+
+In Java, arithmetic expressions are used to perform mathematical calculations using **operators** such as addition, subtraction, multiplication, division, and modulo.
+
+---
+
+## ✅ 1. Arithmetic Operators
+
+| Operator | Symbol | Description            | Example      |
+|----------|--------|------------------------|--------------|
+| Addition | `+`    | Adds two values        | `5 + 3` → `8` |
+| Subtraction | `-` | Subtracts one value from another | `5 - 2` → `3` |
+| Multiplication | `*` | Multiplies two values | `4 * 3` → `12` |
+| Division | `/`    | Divides one value by another (returns quotient) | `10 / 2` → `5` |
+| Modulo (Remainder) | `%` | Returns the remainder of division | `10 % 3` → `1` |
+
+---
+
+## 🔹 2. Integer vs. Floating-Point Division
+
+### Integer division:
+If both numbers are integers, the result is also an integer (fraction is discarded):
+
+```java
+int result = 7 / 2;  // result = 3 (not 3.5)
+```
+
+### Floating-point division:
+If at least one operand is a `double`, the result will include decimals:
+
+```java
+double result = 7.0 / 2;  // result = 3.5
+```
+
+---
+
+## 🔹 3. Operator Precedence
+
+Java follows **operator precedence** rules to decide the order in which operations are performed.
+
+### Precedence (from highest to lowest):
+
+1. `()` **Parentheses**
+2. `*`, `/`, `%` **Multiplication, Division, Modulo**
+3. `+`, `-` **Addition, Subtraction**
+
+### Example:
+
+```java
+int result = 5 + 3 * 2;  // result = 5 + 6 = 11 (not 16)
+```
+
+Because multiplication (`*`) has higher precedence than addition (`+`), it’s done first.
+
+---
+
+## 🔹 4. Using Parentheses to Control Order
+
+You can use **parentheses** to **override** the default precedence and make the operations clearer or force them to occur in a specific order:
+
+```java
+int result = (5 + 3) * 2;  // result = 8 * 2 = 16
+```
+
+Always use parentheses when needed to avoid confusion and improve readability.
+
+---
+
+## 🧪 5. Example in Code
+
+```java
+public class ArithmeticDemo {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 3;
+
+        System.out.println("a + b = " + (a + b));     // 13
+        System.out.println("a - b = " + (a - b));     // 7
+        System.out.println("a * b = " + (a * b));     // 30
+        System.out.println("a / b = " + (a / b));     // 3
+        System.out.println("a % b = " + (a % b));     // 1
+
+        int complex = a + b * 2 - (a % 3);
+        System.out.println("Complex expression: " + complex); // 10 + 6 - 1 = 15
+    }
+}
+```
+
 ---
 ---
 
