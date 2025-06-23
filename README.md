@@ -42,7 +42,7 @@ public class Main {
 
 ```
 
-📁 [See the exercise](src/main/java/com/javacourse/sequential_structure)
+<sub>📁 [See the exercises](src/main/java/com/javacourse/sequential_structure)</sub>
 ---
 
 ## Estrutura Condicional
