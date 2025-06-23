@@ -30,7 +30,7 @@ sequential_structure/
     - `System.out.print()`
     - `System.out.println()`
     - `System.out.printf()`
-- ✅ [How to **declare variables** and use:](#How-to-Declare-and-Use-Them)
+- ✅ [How to **declare variables** and use:](#How-to-Declare-Variables-and-Use-Them-in-Java)
     - Primitive types: `int`, `double`, `char`, `boolean`
     - `String` for text
 - ✅ How to **read input** using the `Scanner` class
