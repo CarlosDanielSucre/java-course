@@ -26,7 +26,7 @@ package com.javacourse.sequential_structure.exemplo01;
 
 import java.util.Locale;
 
-public class Exercicio01 {
+public class Exercise01 {
     public static void main(String[] args) {
         String product1 = "Computer";
         String product2 = "Office desk";
