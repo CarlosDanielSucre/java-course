@@ -43,7 +43,7 @@ sequential_structure/
     - `Locale.setDefault(Locale.US);`
 
 ---
-## 📨 How to Print Output to the Console in Java
+## How to Print Output to the Console in Java
 
 In Java, printing messages to the console is one of the most basic — and essential — skills.  
 There are three main methods used for this:
@@ -126,7 +126,7 @@ Locale.setDefault(Locale.US);
 
 ---
 
-### 📋 Summary Comparison
+### Summary Comparison
 
 | Method                | Breaks Line? | Supports Formatting? | When to Use                                 |
 |-----------------------|--------------|-----------------------|----------------------------------------------|
