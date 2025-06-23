@@ -37,7 +37,7 @@ sequential_structure/
 - ✅ [**Arithmetic expressions**:](#Arithmetic-Expressions-in-Java)
     - Operators: `+`, `-`, `*`, `/`, `%`
     - Operator **precedence** and use of parentheses
-- ✅ **Type casting** for precise division
+- ✅ (**Type casting** for precise division)[#Type-Casting-for-Precise-Division-in-Java]
     - Example: `(double) a / b`
 - ✅ How to use **Locale settings** to print decimals with a dot:
     - `Locale.setDefault(Locale.US);`
@@ -406,6 +406,85 @@ public class ArithmeticDemo {
 }
 ```
 
+---
+---
+
+# Type Casting for Precise Division in Java
+
+In Java, when you divide two integers using `/`, the result is an **integer division**, meaning the decimal part is **discarded**. To get a **precise result with decimals**, you must convert (cast) at least one operand to a `double`.
+
+---
+
+## 🔹 1. What Is Type Casting?
+
+**Type casting** means converting a variable from one data type to another. There are two kinds:
+
+- **Implicit casting**: done automatically when converting a smaller type to a larger one (e.g., `int` to `double`)
+- **Explicit casting**: required when converting a larger or more precise type to a smaller one (e.g., `double` to `int`)
+
+---
+
+## 🔹 2. Why Use Type Casting in Division?
+
+### Without casting (integer division):
+
+```java
+int a = 7;
+int b = 2;
+
+double result = a / b;  // WRONG: result = 3.0
+```
+
+Here, `a / b` is `3`, because both are integers — the `.5` is lost **before** assigning to `result`.
+
+---
+
+### With casting (correct decimal division):
+
+```java
+int a = 7;
+int b = 2;
+
+double result = (double) a / b;  // result = 3.5
+```
+
+Here, `(double) a` converts `a` to `7.0`, so Java performs **floating-point division**.
+
+You could also cast `b` or both operands:
+
+```java
+double result = a / (double) b;
+double result = (double) a / (double) b;
+```
+
+All produce the same correct result: `3.5`.
+
+---
+
+## 🔹 3. Full Example
+
+```java
+public class CastingDivision {
+    public static void main(String[] args) {
+        int a = 7;
+        int b = 2;
+
+        int intResult = a / b;
+        double preciseResult = (double) a / b;
+
+        System.out.println("Integer division: " + intResult);      // 3
+        System.out.println("Precise division: " + preciseResult);  // 3.5
+    }
+}
+```
+
+---
+
+## ✅ Summary
+
+- Integer division loses decimal precision.
+- Cast one operand to `double` to force **floating-point division**.
+- Always use casting when you need an accurate decimal result.
 ---
 ---
 
