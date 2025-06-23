@@ -68,4 +68,4 @@ module01_sequential_structure/
 
 ## 🔗 Return to Course Index
 
-[← Back to Course README](../../../README.md)
+[← Back to Course README](../../../../../README.md)
