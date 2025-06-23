@@ -7,7 +7,7 @@ The course is structured into comprehensive modules that guide you from the **ba
 
 ## 🗺️ Course Roadmap
 
-- [x] [Sequential Structure](#-sequential-structure)
+- [x] [Sequential Structure](#sequential-structure)
 - [x] [Estrutura Condicional](#-estrutura-condicional)
 - [x] [Estruturas Repetitivas](#-estruturas-repetitivas)
 - [x] [Outros Tópicos Básicos](#-outros-tópicos-básicos-sobre-java)
