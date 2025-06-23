@@ -33,7 +33,7 @@ sequential_structure/
 - ✅ [How to **declare variables** and use:](#How-to-Declare-Variables-and-Use-Them-in-Java)
     - Primitive types: `int`, `double`, `char`, `boolean`
     - `String` for text
-- ✅ How to **read input** using the `Scanner` class
+- ✅ [How to **read input** using the `Scanner` class](#How-to-Read-Input-Using-the-Scanner-Class-in-Java)
 - ✅ **Arithmetic expressions**:
     - Operators: `+`, `-`, `*`, `/`, `%`
     - Operator **precedence** and use of parentheses
@@ -211,6 +211,111 @@ public class VariableExample {
 }
 ```
 
+---
+---
+
+# How to Read Input Using the `Scanner` Class in Java
+
+In Java, the `Scanner` class (from the `java.util` package) is the most common way to read user input from the console. It allows you to read **different types of input**, such as `String`, `int`, `double`, and more.
+
+---
+
+## 🔹 1. Importing the Scanner Class
+
+Before you can use `Scanner`, you must import it at the top of your file:
+
+```java
+import java.util.Scanner;
+```
+
+---
+
+## 🔹 2. Creating a Scanner Object
+
+You need to create a `Scanner` object and pass `System.in` as the source of input:
+
+```java
+Scanner scanner = new Scanner(System.in);
+```
+
+---
+
+## 🔹 3. Reading Different Types of Input
+
+### 🔸 Read a full line (text):
+```java
+String name = scanner.nextLine();   // Reads an entire line (including spaces)
+```
+
+### 🔸 Read a single word (until space):
+```java
+String word = scanner.next();       // Reads one word (stops at space)
+```
+
+### 🔸 Read an integer:
+```java
+int age = scanner.nextInt();
+```
+
+### 🔸 Read a decimal (floating-point number):
+```java
+double salary = scanner.nextDouble();
+```
+
+### 🔸 Read a boolean value (`true` or `false`):
+```java
+boolean isActive = scanner.nextBoolean();
+```
+
+### 🔸 Read a single character (indirect method):
+```java
+char letter = scanner.next().charAt(0);  // Reads first character of a word
+```
+
+---
+
+## 🔹 4. Full Example
+
+```java
+import java.util.Scanner;
+
+public class UserInputExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Create scanner object
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();  // Read full line
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();       // Read integer
+
+        System.out.print("Enter your salary: ");
+        double salary = scanner.nextDouble(); // Read double
+
+        System.out.println("\n--- User Info ---");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: $" + salary);
+
+        scanner.close(); // Always close the scanner
+    }
+}
+```
+
+---
+
+## ⚠️ Tips and Common Pitfalls
+
+- After using `nextInt()` or `nextDouble()`, if you want to read a line with `nextLine()`, **add an extra `nextLine()`** to consume the leftover newline:
+
+```java
+int age = scanner.nextInt();
+scanner.nextLine();  // consume leftover newline
+String name = scanner.nextLine(); // now safe to read line
+```
+
+- **Always close** the scanner at the end using `scanner.close()` to free system resources.
+---
 ---
 
 ## 💻 Example Exercises
