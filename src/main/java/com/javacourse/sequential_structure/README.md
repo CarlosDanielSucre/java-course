@@ -39,8 +39,6 @@ sequential_structure/
     - Operator **precedence** and use of parentheses
 - ✅ [**Type casting** for precise division](#Type-Casting-for-Precise-Division-in-Java)
     - Example: `(double) a / b`
-- ✅ How to use **Locale settings** to print decimals with a dot:
-    - `Locale.setDefault(Locale.US);`
 
 ---
 ## How to Print Output to the Console in Java
