@@ -50,7 +50,7 @@ conditional_structure/
 
 ---
 
-## 🔹 Relational Operators
+# Relational Operators
 
 Relational operators are used to **compare values**, returning a boolean result: `true` or `false`.
 
@@ -67,7 +67,7 @@ Relational operators are used to **compare values**, returning a boolean result:
 
 ---
 
-## Logical Operators
+# Logical Operators
 
 Logical operators allow combining multiple **boolean conditions** or inverting a condition.
 
@@ -83,7 +83,7 @@ Logical operators allow combining multiple **boolean conditions** or inverting a
 
 ---
 
-## 🔹 if / if-else / if-else-if Statements
+# if / if-else / if-else-if Statements
 
 These are **basic conditional structures** to control the program's flow.
 
