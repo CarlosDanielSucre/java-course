@@ -43,6 +43,8 @@ public class Main {
 ```
 
 <sub>📁 [See the exercises](src/main/java/com/javacourse/sequential_structure)</sub>
+____________________________________________________________________________________________
+|___________________________________________________________________________________________|
 ---
 
 ## Conditional Structure
