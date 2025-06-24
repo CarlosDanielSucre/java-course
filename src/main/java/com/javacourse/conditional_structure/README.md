@@ -98,9 +98,11 @@ if (x > 10) {
     System.out.println("Less than 10");
 }
 ```
+
 📌 Use if for simple conditions,
 📌 if-else when you want to cover two possibilities,
 📌 and if-else-if for multiple exclusive conditions.
+
 ---
 
 # Switch-Case Statements
