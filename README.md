@@ -8,9 +8,9 @@ The course is structured into comprehensive modules that guide you from the **ba
 ## 🗺️ Course Roadmap
 
 - [x] [Sequential Structure](#sequential-structure)
-- [x] [Estrutura Condicional](#estrutura-condicional)
+- [x] [Estrutura Condicional](#conditional-structure)
 - [x] [Estruturas Repetitivas](#estruturas-repetitivas)
-- [x] [Outros Tópicos Básicos](#outros-tópicos-básicos-sobre-java)
+- [x] [Outros Tópicos Básicos](#outher-topics-in-java)
 - [x] [Introdução à Programação Orientada a Objetos](#introdução-à-programação-orientada-a-objetos)
 - [x] [Construtores, `this`, Sobrecarga e Encapsulamento](#construtores-palavra-this-sobrecarga-e-encapsulamento)
 - [x] [Trabalhar com Data e Hora](#trabalhar-com-data-e-hora)
@@ -45,29 +45,149 @@ public class Main {
 <sub>📁 [See the exercises](src/main/java/com/javacourse/sequential_structure)</sub>
 ---
 
-## Estrutura Condicional
+## Conditional Structure
 
-Conditional structures allow the program to **make decisions** using statements like `if`, `else`, and `switch`.  
-These are essential when different behaviors are needed based on input or state.
+A **Conditional Structure** allows a Java program to make decisions based on certain conditions.  
+It enables dynamic behavior, where code is executed differently depending on input or program state.
+
+### ✨ Key Concepts
+- `if`: executes a block of code if a condition is `true`
+- `else`: executes a block if the `if` condition is `false`
+- `else if`: checks additional conditions
+- `switch`: tests a value against multiple cases
+
+These tools help guide program flow in a flexible and logical way.
+
+### ☕ Java Example: `if`, `else if`, `else`
+```java
+public class Main {
+    public static void main(String[] args) {
+        int age = 18;
+
+        if (age < 18) {
+            System.out.println("Underage");
+        } else if (age == 18) {
+            System.out.println("Just became an adult");
+        } else {
+            System.out.println("Adult");
+        }
+    }
+}
+```
+### 🎯 Java Example: switch statement
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String day = "Saturday";
+
+        switch (day) {
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+            case "Friday":
+                System.out.println("Weekday");
+                break;
+            case "Saturday":
+            case "Sunday":
+                System.out.println("Weekend");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+}
+```
+
+<sub>📁 [See the exercises](src/main/java/com/javacourse/conditional_structure)</sub>
 
 ---
 
-## Estruturas Repetitivas
+## Other Basic Topics in Java
 
-Java provides several **looping mechanisms** such as `for`, `while`, and `do-while`, which are used to execute a block of code **multiple times**.  
-They are powerful for automation, iteration, and data processing.
+This section explores **foundational building blocks** of the Java language — the essentials every Java developer should master early on.
 
----
+### 🧮 Variable Declarations
+In Java, variables must be declared with a specific type before they are used. Common data types include:
+- `int`: integer numbers
+- `double`: decimal numbers
+- `boolean`: true or false
+- `char`: single characters
+- `String`: sequences of characters (not a primitive)
 
-## Outros Tópicos Básicos sobre Java
+```java
+int age = 25;
+double price = 99.99;
+boolean isActive = true;
+char grade = 'A';
+String name = "Carlos";
+```
 
-Here we cover foundational Java elements like:
-- Variable declarations
-- Operators and expressions
-- Input/output with `Scanner`
-- Type casting
-- Standard Java libraries
+➕ Operators and Expressions
+Java supports a wide range of operators for math, logic, and comparisons:
 
+Arithmetic: +, -, *, /, %
+
+Relational: ==, !=, >, <, >=, <=
+
+Logical: &&, ||, !
+
+Assignment: =, +=, -=, etc.
+
+```java
+int a = 10;
+int b = 5;
+int sum = a + b;
+boolean result = a > b && b != 0;
+```
+📥 Input/Output with Scanner
+Java uses the Scanner class (from java.util) to receive input from the user:
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+
+        System.out.println("Hello, " + name + "!");
+    }
+}
+```
+🔄 Type Casting
+Java requires explicit conversion when moving between incompatible types (e.g., double to int):
+
+```java
+double salary = 1350.75;
+int roundedSalary = (int) salary; // results in 1350
+
+int x = 42;
+double converted = x; // implicit casting
+```
+📚 Standard Java Libraries
+
+Java includes a rich set of standard libraries, such as:
+
+java.util: collections, dates, Scanner
+
+java.lang: core classes (Math, String, etc.)
+
+java.io: input/output streams
+
+java.time: date and time API
+
+Example using Math:
+
+```java
+double result = Math.sqrt(49); // returns 7.0
+int rounded = Math.round(3.6f); // returns 4
+
+```
+<sub>📁 [See the exercises](src/main/java/com/javacourse/conditional_structure)</sub>
 ---
 
 ## Introdução à Programação Orientada a Objetos
