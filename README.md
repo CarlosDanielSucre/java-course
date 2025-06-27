@@ -3,7 +3,7 @@
 Welcome! This repository contains all exercises, notes, and projects developed throughout the **Complete Java Course** by Dr. Nelio Alves.  
 The course is structured into comprehensive modules that guide you from the **basics** of Java to more **advanced topics**, including hands-on **real-world projects**.
 
----
+--
 
 ## 🗺️ Course Roadmap
 
